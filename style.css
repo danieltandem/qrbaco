@@ -15,9 +15,10 @@ header{
     height: 120px;
     text-align: center;
     margin: 0 auto;
-    border: 5px groove rgb(240, 197, 197);
+    border: 6px groove rgb(240, 197, 197);
     
 }
+
 h1{
     margin: auto;
     vertical-align: center;
@@ -32,7 +33,7 @@ h2{
     font-family: sans-serif;
     padding-top: 20px;
     color: white;
-    border: 4px rgb(227, 220, 220) solid;
+    border: 2px rgb(240, 197, 197) solid;
     margin: 0 auto;
     padding: 20px;
 }
@@ -42,6 +43,13 @@ h2:hover{
 }
 a{
     text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    padding: 5px;
+}
+a:hover{
+    cursor: pointer;
+    text-decoration: underline wavy white;
 }
 .contenido ul{
     margin: 0 auto;
@@ -51,11 +59,11 @@ a{
 color: beige;
 padding: 20px;
 }
-.contenido{
-    list-style: none;
-    padding: 20px;
-}
 img{
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
+    padding: 11px;
+}
+ul{
+    list-style: none;
 }
